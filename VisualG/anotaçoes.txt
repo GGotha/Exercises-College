@@ -1,0 +1,21 @@
+repita - sempre roda uma vez, por isso sempre usar contador <- -1 no início
+
+
+
+repita
+
+
+
+
+até (voto = 0)
+
+
+enquanto
+
+fimenquanto
+
+
+para contador de 1 ate 20 faca
+
+
+fimpara

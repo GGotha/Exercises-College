@@ -1,0 +1,38 @@
+body {
+    background-color: grey;
+}
+
+.container-principal {
+    width: 94%;
+    height: 1000px;
+    border: 1px dotted black;
+    margin: 10px auto;
+}
+
+
+.topo, .caixa-superior {
+    width: 98%;
+    height: 70px;
+    border: 1px dotted black;
+    margin: 10px auto;
+    padding: 1%;
+    box-sizing: border-box;
+}
+
+.caixa-superior {
+    display: flex;
+    height: 110px;
+    align-items: center;
+}
+
+.box1, .box2 {
+    width: 24%;
+    height: 99%;
+    border: 1px dotted black;
+    margin-right: 1%;
+}
+
+.box2 {
+    width: 74%;
+
+}

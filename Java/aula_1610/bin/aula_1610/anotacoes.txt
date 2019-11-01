@@ -1,0 +1,2 @@
+variavel.charAt(0) -> vê a primeira letra da palavra digitada
+variavel.lenght() -> mostra a quantidade de caracteres da palavra digitada

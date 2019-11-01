@@ -1,0 +1,1 @@
+variavel de controle: variavel que faz tudo

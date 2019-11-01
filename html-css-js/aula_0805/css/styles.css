@@ -1,0 +1,85 @@
+body {
+    font-family: calibri;
+    font-size: 16px;
+}
+
+.container {
+    width: 94%;
+    height: 1000px;
+    margin: 10px auto;
+}
+
+.cabecalho-principal {
+    width: 98%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    background: #e4e9ed;
+}
+
+.logo {
+    width: 20%;
+}
+
+.texto-logo {
+    font-size: 40px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.azul {
+    color: #2574a9;
+}
+
+.red {
+    color: #00b5cc;
+}
+
+.menu-principal {
+    width: 78%;
+    text-align: right;
+    padding: 0 10px;
+    box-sizing: border-box; 
+}
+
+.menu-principal ul li {
+    display: inline-block;
+    margin-left: 3%;
+    
+}
+
+.menu-principal ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+}
+
+.menu-principal a:hover {
+    transition: all 1s ease;
+    color: red;
+}
+
+.banner {
+    width: 98%;
+    height: 400px;
+    margin: 10px auto;
+    border: 1px solid;
+    background-image: url('../images/car2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.texto-banner {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    width: 100%;
+    padding: 8% 2%;
+    box-sizing: border-box;
+    background-color: rgba(121, 13, 13, 0.8);
+    position: relative;
+    top: 15%;
+    left: 0%;
+
+}

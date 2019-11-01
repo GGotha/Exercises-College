@@ -1,0 +1,2 @@
+https://bootswatch.com <-- templates bootstrap
+https://app.netlify.com <-- hospedagem free

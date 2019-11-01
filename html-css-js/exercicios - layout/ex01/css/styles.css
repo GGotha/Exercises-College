@@ -1,0 +1,63 @@
+header {
+    height: 1800px;
+    margin: 1% 15%;
+}
+
+.img-logo {
+    width: 100%;
+    height: 50%;
+}
+
+ul {
+    background-color: black;
+    display: flex;
+    padding: 1%;
+    margin-top: 2%;
+    border: 1px solid;
+    justify-content: right;
+}
+
+li {
+    margin-right: 2%;
+}
+
+a {
+    color: white;
+    font-weight: bold;
+    font-size: 26px;
+    float: right;
+}
+
+.meio {
+    border: 1px solid black;
+    margin-top: 2%;
+    height: 300px;
+}
+
+.titulo-topo {
+    border: 1px solid;
+    width: 100%;
+    background-color: black;
+    height: 50px;
+}
+
+.titulo {
+    margin-left: 1%;
+    color: white;
+    font-weight: bold;
+    height: 50px;
+    margin-top: 1.5%;
+    justify-content: left;
+    text-align: left;
+    align-items: left;
+    width: 100%;
+    font-size: 24px;
+}
+
+.meio p {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    margin: 3% 2%;
+    text-align: center;
+}

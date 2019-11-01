@@ -1,0 +1,5 @@
+box-sizing não deixa a box aumentar sua largura com padding	
+
+background-repeat: no-repeat;	quando der zoom a imagem nao repete
+background-size: cover; 	quando der zoom a imagem mantem a forma
+z-index: usado apenas com position, posicionar camadas, um em cima do outro

@@ -1,0 +1,47 @@
+float: posicionar elementos
+div elemento do tipo bloco -> permite que ninguem fica alinhado ao seu lado
+float quebra o fluxo de exibiçao do documento
+
+elementos de linha
+	img
+	a
+
+
+elementos de bloco
+	p
+	h
+	fieldset
+	tr - th - td
+
+
+alterar essas propriedades com display
+
+
+
+display: inline; <- vai aumentar de acordo com o texto dentro da caixa, ele nao permite que você aumenta a resolução
+display: inline-block <- vai conseguir mexer na resolução de boa, sem alterar nada
+
+
+
+medida px -> medida fixa, não é uma medida flexível
+medida % -> medida relativa, medida mais inteligente
+
+
+reset.css <- reseta todas as caracteristicas padronizadas do html (SEMPRE EMCIMA DO CSS)
+
+.no-float:{clear: both}; <- deixa o texto para a esquerda
+
+header não pode ser a main, tem que estar dentro de uma div
+
+margin: 10px auto; <- 10 pixels aplicado para cima e baixo, auto aplicado para a esquerda e direita
+
+
+border dotted -> borda pontilhada
+border solid -> borda sólida
+
+
+<article></article> <- artigo com vários sessões
+<section></section> <- divisoes do artigo
+
+
+torna os elementos flex -> display: flexbox; = flexbox <- permitir o alinhamento dos elementos, baseado no eixo x ou y

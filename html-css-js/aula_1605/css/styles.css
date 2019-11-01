@@ -1,0 +1,189 @@
+body{
+  font-family: calibri;
+  font-size: 16px;
+}
+
+.container{
+  width: 94%;
+  height: 1000px;
+  /* border: 1px solid; */
+  margin: 10px auto;
+}
+
+.cabecalho-principal{
+  width: 98%;
+  height: 80px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.logo{
+  width: 20%;
+  /* height: inherit; */
+  /* border: 1px solid; */
+}
+
+.texto-logo{
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+  /* border: 1px solid; */
+}
+
+.azul{
+  color: #369;
+}
+
+.menu-principal{
+  /* border: 1px solid; */
+  width: 78%;
+  text-align: right;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+
+.menu-principal ul li{
+  display: inline-block;
+  margin-left: 3%;
+}
+
+
+.menu-principal ul li a{
+  text-decoration: none;
+  color: #000;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.menu-principal ul li a:hover{
+  transition: all 1s ease;
+  color:#900;
+}
+
+.banner{
+  width: 100%;
+  height: 35%;
+  margin: 10px auto;
+  background-image: url(../images/car2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.texto-banner{
+  width: 95%;
+  color: #FFF;
+  font-size: 40px;
+  text-align: center;
+  padding: 8% 2%;
+  box-sizing: border-box;
+  background-color: rgba(121, 13, 13, 0.8);
+  position: relative;
+  top: 15%;
+  left: 2%;
+
+}
+
+.conteudo-principal {
+  width: 100%;
+  height: 400px;
+  border: 1px solid;
+  display: flex;
+}
+
+.conteudo-box {
+  width: 32.95%;
+  height: 320px;
+  border: 1px solid;
+  padding: 1%;
+  box-sizing: border-box;
+  margin: 0 1%;
+  text-align: center;
+}
+
+.titulo-box {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 15px 0;
+}
+
+.texto-box {
+  font-size: 14px;
+  color: #333;
+  margin: 15px 0;
+  line-height: 25px;
+}
+
+
+.meus-links {
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 700;
+  color: white;
+  padding: 8px 35px;
+  box-sizing: border-box;
+  background: red;
+  border-radius: 5px;
+  border: 2px solid #900;
+}
+
+.meus-links:hover {
+  transition: all 2s ease;
+  background-color: #900;
+}
+
+fieldset {
+  margin: 20px auto;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+textarea {
+  width: 100%;
+  height: 60%;
+  font-size: 25px;
+  font-family: calibri;
+  padding-left: 50px;
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  border: 1px solid grey;
+  background-position: 5px 1px;
+}
+
+textarea {
+  height: 130px;
+  padding-left: 10px;
+  resize: none;
+}
+
+.user {
+  background-image: url('../images/user2.png');
+
+}
+
+.email {
+  background-image: url('../images/email2.png');
+}
+
+.phone {
+  background-image: url('../images/celular2.png');
+}
+
+.user:focus {
+  background-image: url('../images/user.png');
+  outline: 0;
+  border: 1px solid #000;
+}
+
+.email:focus {
+  background-image: url('../images/email.png');
+  outline: 0;
+  border: 1px solid #000;
+}
+
+.phone:focus {
+  background-image: url('../images/celular.png');
+  outline: 0;
+  border: 1px solid #000;
+}

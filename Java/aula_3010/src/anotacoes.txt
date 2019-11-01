@@ -1,0 +1,6 @@
+variavel.charAt(0) -> vê a primeira letra da palavra digitada
+variavel.lenght() -> mostra a quantidade de caracteres da palavra digitada
+Character.digit(variavel, base)
+charAt pega o símbolo e não o número, por isso para usar esse símbolo, tem que passar
+para uma outra variável pegando o seu valor
+aux.append -> junta as letras obs: precisa ser inicalizado 	StringBuffer aux = new StringBuffer();

@@ -1,0 +1,5 @@
+public -> acessada por qualquer outra classe
+private -> acessada apenas por ele
+protected -> não é public e nem private, ex: piscina de prédio
+static -> sempre disponível
+void -> não retorna valor pro S.O

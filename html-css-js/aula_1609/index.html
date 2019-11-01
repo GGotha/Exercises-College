@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Valores</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+<body>
+    <div class="container my-3">
+        <form class="" action="" method="post">
+            <p>
+                <label for="">Valor 1</label>
+                <input type="text" id="valor1" class="form-control">
+            </p>
+            <p>
+                <label for="">Valor 2</label>
+                <input type="text" id="valor2" class="form-control">
+            </p>
+            <p>
+                <label for="">Operação</label>
+                <select class="form-control" name="" id="operacao">
+                    <option value="0">Selecione a operação desejada</option>
+                    <option value="1">Soma</option>
+                    <option value="2">Subtração</option>
+                    <option value="3">Multiplicação</option>
+                    <option value="4">Divisão</option>
+                </select>
+            </p>
+            <p>
+                <button type="submit" id="calcular" class="btn btn-info btn-lg">Calcular</button>
+            </p>
+            <p>
+                <label id="resultado"></label>
+            </p>
+        </form>
+    </div>
+
+    <script type="text/javascript" src="./js/index.js"></script>
+</body>
+</html>

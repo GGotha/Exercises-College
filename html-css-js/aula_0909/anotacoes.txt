@@ -1,0 +1,6 @@
+dom 01 - cai na ps
+
+DOM - Document object model
+
+let - global
+var - apenas no bloco

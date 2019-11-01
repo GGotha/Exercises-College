@@ -1,0 +1,9 @@
+trello.com <- criar anotaçoes
+
+wireframe.cc <- criar layout para seus sites
+
+
+box-sizing: border-box; <- deixa a div fixada, ao usar o padding a div/container nao mexe na largura e altura do container
+
+
+.no-float: {clearfix: both} <- tira o float de determinada estrutura
